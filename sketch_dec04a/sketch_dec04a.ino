@@ -14,6 +14,9 @@ void setup() {
   // "Bei wechselnder Flanke auf dem Interruptpin" --> "Führe die ISR aus"
   attachInterrupt(digitalPinToInterrupt(interruptPin), blink, RISING);
 }
+// Neue Version erstellt
+// Neue Version erstellt
+
 
 void loop() {
   // Schreibe den Status der LED auf den LED-Pin zurück:
