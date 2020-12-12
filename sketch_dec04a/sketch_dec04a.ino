@@ -22,7 +22,7 @@ void loop() {
     digitalWrite(ledPin, state);
   }
 }
-
+//haudi
 void blink() {
   // Invertiere den Status: "Lass die LED blinken von HIGH auf LOW/ an auf aus"
   state = !state;
